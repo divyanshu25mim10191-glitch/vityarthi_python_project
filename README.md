@@ -1,4 +1,3 @@
-cat << 'EOF' > README.md
 # Text-Based Adventure Game
 
 A **Python text-based adventure game** where players explore a mansion, collect items, solve puzzles, and try to escape. This is a choose-your-own-adventure style game designed to demonstrate Python programming concepts in a fun and interactive way.
@@ -13,7 +12,6 @@ A **Python text-based adventure game** where players explore a mansion, collect 
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Future Enhancements](#future-enhancements)
-- [License](#license)
 
 ---
 
@@ -39,18 +37,18 @@ You picked up the torch.
 - Simple puzzles and locked objects (e.g., chest, main door).
 - Inventory management.
 - Clear win condition: escape the mansion using required items.
-- User-friendly text-based input (\`go\`, \`get\`, \`use\`, \`inventory\`, \`quit\`).
+- User-friendly text-based input (\'go\', \'get\', \'use\', \'inventory\', \'quit\').
 
 ---
 
 ## How to Play
 Commands available to the player:
 
-- \`go <direction>\` – Move to another room (north, south, east, west).  
-- \`get <item>\` – Pick up an item in the room.  
-- \`use <item>\` – Use an item to solve puzzles or unlock doors.  
-- \`inventory\` – Check your current inventory.  
-- \`quit\` – Exit the game.  
+- \'go <direction>\' – Move to another room (north, south, east, west).  
+- \'get <item>\' – Pick up an item in the room.  
+- \'use <item>\' – Use an item to solve puzzles or unlock doors.  
+- \'inventory\' – Check your current inventory.  
+- \'quit\' – Exit the game.  
 
 Example:
 
@@ -98,7 +96,7 @@ Example of a room structure:
 1. Clone the repository:
 
 \`\`\`bash
-git clone https://github.com/your-username/text-adventure-game.git
+git clone https://github.com/divyanshu25mim10191-glitch/vityarthi_python_project
 \`\`\`
 
 2. Navigate into the project directory:
@@ -110,7 +108,7 @@ cd text-adventure-game
 3. Run the game:
 
 \`\`\`bash
-python adventure_game.py
+python vitproject.py
 \`\`\`
 
 ---
@@ -124,6 +122,3 @@ python adventure_game.py
 
 ---
 
-## License
-This project is licensed under the **MIT License**.
-EOF
