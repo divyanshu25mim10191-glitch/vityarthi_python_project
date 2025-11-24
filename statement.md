@@ -1,10 +1,10 @@
-# 🏰 Text Adventure Game — **State Documentation**
+#  Text Adventure Game — **State Documentation**
 
 This document describes the full state of the game world including rooms, items, exits, puzzles, and player state.
 
 ---
 
-## 📌 **Global State**
+##  **Global State**
 
 ### **Player**
 - **Current Room:** `hall`
@@ -12,7 +12,7 @@ This document describes the full state of the game world including rooms, items,
 
 ---
 
-## 🏠 **Rooms & World Structure**
+##  **Rooms & World Structure**
 
 ### **1. HALL**
 **Key:** `hall`  
@@ -86,7 +86,7 @@ This document describes the full state of the game world including rooms, items,
 
 ---
 
-## 🧩 **Puzzles Summary**
+##  **Puzzles Summary**
 
 | Room    | Puzzle        | Required Item(s) | Result |
 |---------|----------------|------------------|--------|
@@ -95,7 +95,7 @@ This document describes the full state of the game world including rooms, items,
 
 ---
 
-🔁 Game Loop Overview
+## Game Loop Overview
 
 The main loop (starting()) performs:
 
