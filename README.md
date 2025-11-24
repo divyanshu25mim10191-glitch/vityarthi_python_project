@@ -48,7 +48,19 @@ Commands available to the player:
 - \'get <item>\' – Pick up an item in the room.  
 - \'use <item>\' – Use an item to solve puzzles or unlock doors.  
 - \'inventory\' – Check your current inventory.  
-- \'quit\' – Exit the game.  
+- \'quit\' – Exit the game.
+
+## 🎮 How to Play
+
+Type commands into the terminal to interact with the game.
+
+Basic Commands
+Command	Example	Purpose
+go <direction>	go north	Move between rooms
+get <item>	get key	Pick up an item
+use <item>	use key	Use an item
+inventory	inventory	Show items you're carrying
+quit	quit	Exit the game
 
 Example:
 
